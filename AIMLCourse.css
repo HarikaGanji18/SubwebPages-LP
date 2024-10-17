@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -126,27 +127,31 @@ aside span {
 
 aside .second {
     position: absolute;
-    top: 15.8%;
+    top: 19.5%;
 }
 
 aside .third {
     position: absolute;
-    top: 25.5%;
+    top: 38.0%;
 }
 
 aside .fourth {
     position: absolute;
-    top: 34.3%;
+    top: 56%;
 }
 
 aside .fifth {
     position: absolute;
-    top: 44%;
+    top: 56%;
 }
-/* aside .sixth {
+aside .sixth {
     position: absolute;
-    top: 34%;
-} */
+    top: 74.2%;
+}
+aside .seventh{
+    position: absolute;
+    top: 89%;
+}
 
 aside p {
     width: 100px;
@@ -165,13 +170,13 @@ aside .timeline-content {
 
 
 aside .timeline-content p {
-    padding: 20px 0px 7px;
-    width: 100%;
+    padding: 20px 0px 30px 0;
+    width:100%;
 }
 
 .timeline-status {
     position: absolute;
-    top: 2;
+    top: 0;
     width: 5px;
     height: 100%;
     background-color: orangered;
@@ -193,7 +198,7 @@ aside .timeline-content p {
 /* ----------------------------problem container--------------------- */
 
 .problems-container {
-    width: 77.4%;
+    width: 77%;
     height: 89vh;
     background-color: #222;
     margin-left: 10px;
@@ -224,7 +229,7 @@ aside .timeline-content p {
     color: #111;
 }
 
-.HTML-Problems {
+.CS {
     margin: 20px 40px;
 }
 
@@ -329,8 +334,17 @@ aside .timeline-content p {
     width: 98%;
 }
 
-#html1:checked ~ .topic1-answer {
+#html1:checked ~  .topic1-answer {
     display: block;
+}
+.topic1-answer a
+{
+    color: white;
+    text-decoration: none;
+    
+}
+.topic1-answer a:hover{
+    color: orangered;
 }
 
 table {
@@ -345,8 +359,9 @@ tr, td, th{
     border: 1px solid black;
 }
 
-#html2:checked ~ .topic2-answer {
+#html2:checked ~ .topic2-answer  {
     display: block;
+   
 }
 
 #html3 {
@@ -618,9 +633,6 @@ tr, td, th{
 #frontend-testing:checked ~ .frontend-testing-answer {
     display: block;
 }
-
-
-
 
 
 /* ------------------- Footer ------------------- */
